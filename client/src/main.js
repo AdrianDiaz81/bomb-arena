@@ -8,7 +8,7 @@ startGame();
 
 function startGame() {
 //	socket = io("https://limitless-brook-9339.herokuapp.com:443");
-    socket = io("https://danihorny.azurewebsites.net:8000");
+    socket = io("http://danihorny.azurewebsites.net:8000");
 
     require("./game/mods/phaser_enhancements");
 
